@@ -1,0 +1,8 @@
+class HeloWorldGreeter(){
+  gun greeter (){
+  println("Hello World")
+}
+}
+fun main(){
+  HelloWorldGreeter(.greeter())
+}
