@@ -1,3 +1,5 @@
+//1st attempt
+
 class HeloWorldGreeter(){
   gun greeter (){
   println("Hello World")
@@ -6,3 +8,30 @@ class HeloWorldGreeter(){
 fun main(){
   HelloWorldGreeter(.greeter())
 }
+
+//Correct Attempt
+
+class myClass {
+    fun printMe() {
+        println("Hellow World")
+    }
+}
+
+fun main(args: Array<String>) {
+    val obj = myClass()
+    obj.printMe()
+}
+
+//Correct atempt #2
+
+class BigClassBoo {
+    private val str: String = "Hola a todos"
+    fun greeter() {
+        println(str)
+    }
+}
+    fun main(args: Array<String>) {
+        val name = BigClassBoo()
+        name.greeter()
+    }
+    
