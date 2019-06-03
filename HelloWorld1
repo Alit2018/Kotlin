@@ -1,0 +1,35 @@
+fun main(){
+    val World = "Peter"
+    println("Hello $World")
+
+    HelloWorld1()
+    HelloWorld2()
+    HelloWorld3()
+}
+
+//Better this code
+fun HelloWorld1(){
+    val name: String = "Hola"
+    var number: Int = 1
+    val letter: Char = 'a'
+    println("$name amigo! @letter!!! Tu no eres number $number")
+}
+
+//better yet
+fun HelloWorld2(){
+    val name:String = "Hola"
+    var letter: Char = 'a'
+    var number: Int = 2
+    println("$name amido! $letter !!! No eres numero $number")
+}
+//NO, this one is better yet
+
+fun HelloWorld3(){
+    val name:String = "Hola"
+    var number: Int = 25
+    val letter: Char = 'a'
+    number = 3
+    --number
+    number -=1
+    println("$name amigo! $letter !!! No eres numero $number")
+}
