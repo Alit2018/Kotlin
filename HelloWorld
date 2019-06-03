@@ -1,15 +1,28 @@
-//Why not in class? - can't do it
-fun main(){
-  val World = "Peter"
-  println("Hello $world")
-}
+fun main() {
+    val World = "Peter"
+    val x = 1
 
-//Better this code
-fun HelloWorld(){
-  val name: String = "Hola"
-  var number: Int = 1
-  val letter: Char = 'a'
-  println('$name amigo! @letter!!! Tu no eres number $number')
+    val name: String = "aleks"
+    val a: Int = 1
+    var b: Int = 1
+    b = 1000
+
+    val c: Long = 123123123123123123L //Byte & Short - Int & Long - Float & Double differ in memory size
+    var d: Float = 12.01F
+
+    val l: Char = 'a'
+    val b1: Boolean = true
+    var b2: Boolean = false
+
+
+    println("Hello $World!"  + " You are # " + x) //concatination woth + is used like with Python
+
+    println("Hello " + World + "! " + "You are # " + x) ///java way
+
+
+    println("Hola $name! Esto es mi programa primera de Kotlin!") //Kotlin way
+    println("A + B = ${a + b}")
+    println("$c $d $l")
 }
 
 
