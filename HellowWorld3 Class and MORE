@@ -1,0 +1,37 @@
+// ——— Kotlin in a class
+
+open class Person(age: Int, name : String) {
+        init {
+                println(“Меня зовут $name.”)
+                println(“Мой возраст $age.”)
+         }
+}
+
+class English(age: Int, name: String) : Person(age, name) {
+         fun speaksEnglish(){
+                 println(“Hello World!”)
+         }
+}
+
+class Spanish(age: Int, name: String) : Person(age, name) {
+         fun speaksSpanish(){
+                 println(“Hola a todos en el mundo !”)
+         }
+}
+
+class Russian(age: Int, name: String) : Person(age, name) {
+         fun speaksRussian(){
+                 println(“Привет Всем!”)
+         }
+}
+
+fun main() {
+      val 1 = English(25, name «Al”)
+      t1.speaksEnglish()
+
+       val 2= Spanish (20. name «Alejandro”)
+      t1.speaksSpanish()
+
+      val 3= Russian(22, name «Алексей»)
+      t1.speaksRussian()
+}
