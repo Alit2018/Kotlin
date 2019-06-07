@@ -1,0 +1,28 @@
+--------JAVA
+
+public class HelloWorld{
+     Public static void main(){
+           System.out.println(“Привет»);
+     }
+}
+
+——————- C++
+
+#Include <iostream>
+using namespace std;
+
+Int main(){
+    court « «и тебе привет»;
+    Return 0;
+}
+
+—————— Kotlin
+
+fun main() {
+     val World= “Peter”
+     println(“Hello World”)
+}
+
+—————— а на Питоне просто роскошшшшш, одна строка!!!!!
+
+print(“ Hello это что значит? Привет?»)
